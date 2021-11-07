@@ -1,0 +1,21 @@
+.advertDetail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advertContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.advertContent p {
+  margin-bottom: 1rem;
+}
+
+.advertContent span {
+  color: #4cb8c4;
+}

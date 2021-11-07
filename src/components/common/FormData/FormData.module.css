@@ -1,0 +1,23 @@
+.formcontrol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.formcontrol:first-child {
+    margin-top: 0;
+}
+
+.formcontrol > label {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.formcontrol > input {
+    border: none;
+    outline: 0;
+    padding: 10px 7.5px;
+    border-bottom: 2px solid #c3f6fc5b;
+}
+

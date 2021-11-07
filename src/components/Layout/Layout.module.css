@@ -1,0 +1,22 @@
+.layout {
+  min-height: 100vh;
+}
+
+.layoutContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.layoutContent > h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #4cb8c4;
+  margin: 3rem;
+  font-size: 2rem;
+}
+
+.layoutContent > section {
+  width: 100%;
+}

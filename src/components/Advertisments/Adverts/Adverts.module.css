@@ -1,0 +1,58 @@
+.numberContent {
+  font-weight: bold;
+  color: #4cb8c4;
+  font-size: 1.25rem;
+  text-align: end;
+  padding-bottom: 1.5rem;
+}
+
+.advertsContent {
+  margin-bottom: 5rem;
+  width: 100%;
+  display: flex;
+}
+
+.advertsList {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.advert {
+  min-width: 25%;
+  max-width: 30%;
+  flex: 1;
+  margin: 0px 20px 20px 0px;
+  min-height: 300px;
+  box-shadow: 1px 1px 5px #999;
+  border-radius: 20px;
+}
+.advert:nth-child(3n) {
+  margin-right: 0;
+}
+
+.emptyList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyListContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+}
+
+.emptyListContent > p {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #888;
+}

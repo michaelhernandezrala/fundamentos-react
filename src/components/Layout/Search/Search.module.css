@@ -1,0 +1,39 @@
+.searchContent {
+  background-color: #4cb8c4;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.formControl {
+  padding: 0 0 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: white;
+}
+
+.formControl > input[type="text"] {
+  border: none;
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+  outline: none;
+  font-size: 0.75rem;
+  width: 100%;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.range {
+  border: 1px solid red;
+  height: 5px;
+  color: white;
+  background-color: white;
+}
+
+.radios {
+    display: flex;
+    flex-direction: column;
+}
+
